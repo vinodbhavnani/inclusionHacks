@@ -27,6 +27,14 @@ const GlobalStyle = createGlobalStyle`
     font-family: inherit;
     font-size: inherit;
   }
+  .centered {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .card {
+    border: 1px solid #e6e6e6;
+    padding: 10px;
+  }
 `;
 
 export default GlobalStyle;
